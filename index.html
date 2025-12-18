@@ -1,15 +1,113 @@
 <!DOCTYPE html>
 <html lang="es-CL">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Energías Limpias y Renovables/title>
-    <link rel="stylesheet" href="css/styles.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Energías Limpias y Renovables</title>
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-    <header>
-    <h1>🌱 Energías Renovables</h1>
-    <p>El futuro es limpio, verde y sostenible</p>
+  <!-- Menú fijo en la parte superior -->
+  <header class="header">
+    <div class="logo">
+      <h1>🌿 Hogar Sustentable</h1>
+      <p>El futuro es limpio, verde y sostenible</p>
+    </div>
+    <div class="menu-toggle" id="menuToggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <nav class="nav-menu" id="navMenu" aria-label="Navegación principal">
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#contactanos">Contáctanos</a></li>
+      </ul>
+    </nav>
   </header>
-</body>gi
+
+  <!-- Contenido principal con margen superior para no quedar bajo el header -->
+  <main class="main-content">
+    <section id="inicio" class="hero">
+      <h2>Convierte tu hogar en un espacio sustentable</h2>
+      <p>Asesoría personalizada en energías renovables para un futuro más verde.</p>
+      <p>
+        En esta época es crucial usar energías renovables en hogares sustentables porque combaten el cambio climático reduciendo emisiones,
+        mejoran la calidad del aire y la salud al evitar contaminantes, ofrecen ahorro económico a largo plazo y reducen la dependencia
+        de combustibles fósiles, logrando una mayor autonomía energética y un futuro más sostenible y seguro para todos.
+      </p>
+    </section>
+
+    <section id="servicios" class="section">
+      <h2>Nuestros Servicios</h2>
+      <div class="servicios-grid">
+        <div class="servicio-card">
+          <h3>Paneles Solares</h3>
+          <ul>
+            <li>Planificación a medida</li>
+            <li>Instalación certificada</li>
+            <li>Mantenimiento preventivo</li>
+          </ul>
+        </div>
+        <div class="servicio-card">
+          <h3>Iluminación y Decoración</h3>
+          <ul>
+            <li>Interior: Leds eficientes, sensores de movimiento</li>
+            <li>Exterior: Iluminación solar para jardines y fachadas</li>
+          </ul>
+        </div>
+        <div class="servicio-card">
+          <h3>Energía Eólica</h3>
+          <ul>
+            <li>Microturbinas para hogares</li>
+            <li>Evaluación de viabilidad</li>
+            <li>Instalación silenciosa y segura</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="productos" class="section">
+      <h2>Productos</h2>
+      <p>Próximamente: Kits solares, bombillas LED inteligentes, sistemas de recolección de agua de lluvia y más.</p>
+    </section>
+
+    <section id="nosotros" class="section">
+      <h2>Sobre Nosotros</h2>
+      <p>Somos un equipo apasionado por la sostenibilidad, con más de 5 años ayudando a familias en Chile a reducir su huella de carbono y ahorrar energía.</p>
+    </section>
+
+    <section id="contactanos" class="section">
+      <h2>Contáctanos</h2>
+      <form id="formularioContacto" class="formulario-contacto">
+        <div class="form-group">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Correo electrónico</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="telefono">Número de teléfono</label>
+          <input type="tel" id="telefono" name="telefono">
+        </div>
+        <div class="form-group">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="5" placeholder="Cuéntanos cómo podemos ayudarte..." required></textarea>
+        </div>
+        <button type="submit" class="btn-enviar">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Hogar Sustentable – Asesoría en energías renovables</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
 </html>
