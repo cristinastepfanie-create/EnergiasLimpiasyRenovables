@@ -1,114 +1,278 @@
 <!DOCTYPE html>
 <html lang="es-CL">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Energías Limpias y Renovables</title>
-  <link rel="stylesheet" href="css/styles.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hogar Sustentable – Asesoría en energías renovables, paneles solares, iluminación ecológica y energía eólica para hogares en Chile.">
+    <meta name="keywords" content="energía solar, paneles solares, energía eólica, hogar sustentable, iluminación solar, sostenibilidad Chile">
+    <title>🌿 Hogar Sustentable</title>
+    
+    <link rel="stylesheet" href="style/sass/main.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Dancing+Script:wght@500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="header">
-    <div class="logo">
-      <h1>🌿 Hogar Sustentable</h1>
-      <p>El futuro es limpio, verde y sostenible</p>
-    </div>
-    <div class="menu-toggle" id="menuToggle">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-    <nav class="nav-menu" id="navMenu" aria-label="Navegación principal">
-      <ul>
-        <li><a href="#inicio">Inicio</a></li>
-        <li><a href="#servicios">Servicios</a></li>
-        <li><a href="#productos">Productos</a></li>
-        <li><a href="#nosotros">Nosotros</a></li>
-        <li><a href="#contactanos">Contáctanos</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <main class="main-content">
-    <section id="inicio" class="hero">
-      <h2>Convierte tu hogar en un espacio sustentable</h2>
-      <p>Asesoría personalizada en energías renovables para un futuro más verde.</p>
-      <p>
-        En esta época es crucial usar energías renovables en hogares sustentables porque combaten el cambio climático reduciendo emisiones,
-        mejoran la calidad del aire y la salud al evitar contaminantes, ofrecen ahorro económico a largo plazo y reducen la dependencia
-        de combustibles fósiles, logrando una mayor autonomía energética y un futuro más sostenible y seguro para todos.
-      </p>
-    </section>
+    <header class="site-header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="logo">🌿 Hogar Sustentable</h1>
+                <p class="tagline">El futuro es limpio, verde y sostenible</p>
+                <nav class="main-nav" aria-label="Navegación principal">
+                    <ul>
+                        <li><a href="#valores">Inicio</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#cotizacion">Cotización</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
 
-    <section id="servicios" class="section">
-      <h2>Nuestros Servicios</h2>
-      <div class="servicios-grid">
-        <div class="servicio-card">
-          <h3>Paneles Solares</h3>
-          <p>Los paneles solares son una tecnología limpia, eficiente y cada vez más accesible para generar electricidad a partir del sol, reduciendo costos y contribuyendo a la sostenibilidad energética.</p>
-          <ul>
-            <li>Planificación a medida</li>
-            <li>Instalación certificada</li>
-            <li>Mantenimiento preventivo</li>
-          </ul>
-        </div>
-        <div class="servicio-card">
-          <h3>Iluminación y Decoración</h3>
-          <p>La iluminación y decoración solar ofrece una forma elegante, ecológica y sin complicaciones de embellecer espacios exteriores (y algunos interiores) usando solo la energía del sol. Es perfecta para quienes buscan sostenibilidad sin sacrificar estilo.</p>
-          <ul>
-            <li>Interior: Leds eficientes, sensores de movimiento</li>
-            <li>Exterior: Iluminación solar para jardines y fachadas</li>
-          </ul>
-        </div>
-        <div class="servicio-card">
-          <h3>Energía Eólica</h3>
-          <p>La energía eólica convierte la fuerza del viento en electricidad limpia mediante turbinas llamadas aerogeneradores. Es una de las fuentes renovables más maduras, eficientes y ampliamente utilizadas en el mundo.</p>
-          <ul>
-            <li>Microturbinas para hogares</li>
-            <li>Evaluación de viabilidad</li>
-            <li>Instalación silenciosa y segura</li>
-          </ul>
-        </div>
-      </div>
-    </section>
+    <main>
+        <div class="container">
+            <!-- Sección Valores -->
+            <section id="valores" class="valores" aria-labelledby="valores-titulo">
+                <h2 id="valores-titulo">Nuestros Valores</h2>
+                <p class="intro-text">
+                    Asesoría personalizada en energías renovables para un futuro más verde.
+                    En esta época es crucial usar energías renovables en hogares sustentables porque combaten el cambio climático reduciendo emisiones, 
+                    mejoran la calidad del aire y la salud al evitar contaminantes, ofrecen ahorro económico a largo plazo y reducen la dependencia de 
+                    combustibles fósiles, logrando una mayor autonomía energética y un futuro más sostenible y seguro para todos.
+                </p>
 
-    <section id="productos" class="section">
-      <h2>Productos</h2>
-      <p>Próximamente: Kits solares, bombillas LED inteligentes, sistemas de recolección de agua de lluvia y más.</p>
-    </section>
+                <div class="valores-content">
+                    <div class="valor-item">
+                        <i class="fas fa-leaf"></i>
+                        <h3>Sostenibilidad</h3>
+                        <p>Compromiso con prácticas que protegen el medio ambiente, promueven el uso eficiente de los recursos naturales y garantizan un equilibrio entre el desarrollo económico y la salud del planeta.</p>
+                    </div>
+                    <div class="valor-item">
+                        <i class="fas fa-home"></i>
+                        <h3>Educación y empoderamiento</h3>
+                        <p>Fomentar la conciencia ambiental y capacitar a hogares y pequeños negocios para que tomen decisiones informadas sobre su consumo energético y su impacto ecológico.</p>
+                    </div>
+                    <div class="valor-item">
+                        <i class="fas fa-history"></i>
+                        <h3>Innovación responsable</h3>
+                        <p>Impulsar soluciones tecnológicas limpias y accesibles que respondan a las necesidades energéticas actuales sin comprometer el futuro, siempre con un enfoque ético y centrado en la comunidad.</p>
+                    </div>
+                </div>
+            </section>
 
-    <section id="nosotros" class="section">
-      <h2>Sobre Nosotros</h2>
-      <p>Somos un equipo apasionado por la sostenibilidad, con más de 5 años ayudando a familias en Chile a reducir su huella de carbono y ahorrar energía.</p>
-    </section>
+            <!-- Sección Servicios -->
+            <section id="servicios" class="servicios" aria-labelledby="servicios-titulo">
+                <h2 id="servicios-titulo">Nuestros Servicios</h2>
+                <div class="galeria">
+                    <article class="servicio-item" aria-label="Paneles Solares">
+                        <div class="servicio-imagen">
+                            <img src="imagenes/paneles-solares.jpg" alt="Instalación de paneles solares en techo residencial" loading="lazy">
+                        </div>
+                        <div class="servicio-info">
+                            <h3>Paneles Solares</h3>
+                            <p class="servicio-descripcion">Los paneles solares son una tecnología limpia, eficiente y cada vez más accesible para generar electricidad a partir del sol, reduciendo costos y contribuyendo a la sostenibilidad energética.</p>
+                            <ul class="servicio-caracteristicas">
+                                <li><i class="fas fa-check-circle"></i> Planificación a medida</li>
+                                <li><i class="fas fa-check-circle"></i> Instalación certificada</li>
+                                <li><i class="fas fa-check-circle"></i> Mantenimiento preventivo</li>
+                            </ul>
+                            <button class="btn-seleccionar" data-producto="Paneles Solares">Seleccionar</button>
+                        </div>
+                    </article>
 
-    <section id="contactanos" class="section">
-      <h2>Contáctanos</h2>
-      <form id="formularioContacto" class="formulario-contacto">
-        <div class="form-group">
-          <label for="nombre">Nombre</label>
-          <input type="text" id="nombre" name="nombre" required>
-        </div>
-        <div class="form-group">
-          <label for="email">Correo electrónico</label>
-          <input type="email" id="email" name="email" required>
-        </div>
-        <div class="form-group">
-          <label for="telefono">Número de teléfono</label>
-          <input type="tel" id="telefono" name="telefono">
-        </div>
-        <div class="form-group">
-          <label for="mensaje">Mensaje</label>
-          <textarea id="mensaje" name="mensaje" rows="5" placeholder="Cuéntanos cómo podemos ayudarte..." required></textarea>
-        </div>
-        <button type="submit" class="btn-enviar">Enviar</button>
-      </form>
-    </section>
-  </main>
+                    <article class="servicio-item" aria-label="Iluminación y Decoración">
+                        <div class="servicio-imagen">
+                            <img src="imagenes/iluminacion-solar.jpg" alt="Jardín iluminado con luces solares" loading="lazy">
+                        </div>
+                        <div class="servicio-info">
+                            <h3>Iluminación y Decoración Solar</h3>
+                            <p class="servicio-descripcion">La iluminación y decoración solar ofrece una forma elegante, ecológica y sin complicaciones de embellecer espacios exteriores usando solo la energía del sol.</p>
+                            <ul class="servicio-caracteristicas">
+                                <li><i class="fas fa-lightbulb"></i> Interior: LEDs eficientes, sensores de movimiento</li>
+                                <li><i class="fas fa-sun"></i> Exterior: Iluminación solar para jardines y fachadas</li>
+                            </ul>
+                            <button class="btn-seleccionar" data-producto="Iluminación y Decoración Solar">Seleccionar</button>
+                        </div>
+                    </article>
 
-  <footer>
-    <p>&copy; 2025 Hogar Sustentable – Asesoría en energías renovables</p>
-  </footer>
+                    <article class="servicio-item" aria-label="Energía Eólica">
+                        <div class="servicio-imagen">
+                            <img src="imagenes/energia-eolica.jpg" alt="Microturbina eólica residencial" loading="lazy">
+                        </div>
+                        <div class="servicio-info">
+                            <h3>Energía Eólica</h3>
+                            <p class="servicio-descripcion">La energía eólica convierte la fuerza del viento en electricidad limpia mediante turbinas llamadas aerogeneradores. Es ideal para zonas con buen flujo de viento.</p>
+                            <ul class="servicio-caracteristicas">
+                                <li><i class="fas fa-wind"></i> Microturbinas para hogares</li>
+                                <li><i class="fas fa-chart-line"></i> Evaluación de viabilidad</li>
+                                <li><i class="fas fa-tools"></i> Instalación silenciosa y segura</li>
+                            </ul>
+                            <button class="btn-seleccionar" data-producto="Energía Eólica">Seleccionar</button>
+                        </div>
+                    </article>
+                </div>
+            </section>
 
-  <script src="js/script.js"></script>
+            <!-- Sección Cotización -->
+            <section id="cotizacion" class="cotizacion" aria-labelledby="cotizacion-titulo">
+                <h2 id="cotizacion-titulo">Haz tu Cotización</h2>
+                <div class="cotizacion-content">
+                    <form id="formulario-cotizacion" class="formulario-cotizacion">
+                        <div class="form-group">
+                            <label for="nombre">Nombre completo *</label>
+                            <input type="text" id="nombre" name="nombre" required 
+                                   placeholder="Ej: María González" aria-required="true">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Correo electrónico *</label>
+                            <input type="email" id="email" name="email" required 
+                                   placeholder="ejemplo@correo.cl" aria-required="true">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="telefono">Teléfono de contacto *</label>
+                            <input type="tel" id="telefono" name="telefono" required 
+                                   placeholder="+56 9 1234 5678" aria-required="true">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="producto">Servicio seleccionado *</label>
+                            <input type="text" id="producto" name="producto" required 
+                                   placeholder="Haz clic en 'Seleccionar' en el servicio deseado" 
+                                   aria-required="true" readonly>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje adicional</label>
+                            <textarea id="mensaje" name="mensaje" rows="4" 
+                                      placeholder="Indica aquí tus necesidades, preferencias o detalles especiales..."></textarea>
+                        </div>
+                        
+                        <div class="form-actions">
+                            <button type="submit" class="btn-submit">
+                                <i class="fas fa-paper-plane"></i> Solicitar Cotización
+                            </button>
+                            <button type="reset" class="btn-reset">
+                                <i class="fas fa-redo"></i> Limpiar Formulario
+                            </button>
+                        </div>
+                    </form>
+                    
+                    <div class="pedidos-info">
+                        <h3>Información importante</h3>
+                        <ul>
+                            <li><i class="fas fa-clock"></i> Respuesta en menos de 48 horas</li>
+                            <li><i class="fas fa-tools"></i> Servicio técnico especializado</li>
+                            <li><i class="fas fa-credit-card"></i> Aceptamos todos los medios de pago</li>
+                            <li><i class="fas fa-shield-alt"></i> Garantía de satisfacción</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sección Contacto -->
+            <section id="contacto" class="contacto" aria-labelledby="contacto-titulo">
+                <h2 id="contacto-titulo">Contáctanos</h2>
+                <div class="contacto-content">
+                    <div class="contacto-info">
+                        <div class="contacto-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h3>Teléfono</h3>
+                                <p><a href="tel:+56912345678">+56 9 1234 5678</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contacto-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>Correo electrónico</h3>
+                                <p><a href="mailto:hola@hogarsustentable.cl">hola@hogarsustentable.cl</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contacto-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h3>Dirección</h3>
+                                <p>Calle Energía Solar 123, Providencia, Santiago</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contacto-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h3>Horario de atención</h3>
+                                <p>Lunes a Viernes: 9:00 – 19:00 hrs</p>
+                                <p>Sábados: 10:00 – 14:00 hrs</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="redes-sociales">
+                        <h3>Síguenos en redes sociales</h3>
+                        <div class="redes-links">
+                            <a href="https://instagram.com/hogarsustentable" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://facebook.com/hogarsustentable" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://wa.me/56912345678" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>🌿 Hogar Sustentable</h3>
+                    <p>Asesoría personalizada en energías renovables para un futuro más verde.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Enlaces rápidos</h4>
+                    <ul>
+                        <li><a href="#valores">Nuestros valores</a></li>
+                        <li><a href="#servicios">Nuestros servicios</a></li>
+                        <li><a href="#cotizacion">Solicitar cotización</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-newsletter">
+                    <h4>Recibe nuestras novedades</h4>
+                    <form id="newsletter-form">
+                        <input type="email" placeholder="Tu correo electrónico" required>
+                        <button type="submit">Suscribirse</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year">2025</span> 🌿 Hogar Sustentable. Todos los derechos reservados.</p>
+                <p class="footer-legal">
+                    <a href="#">Política de privacidad</a> | 
+                    <a href="#">Términos y condiciones</a> | 
+                    <a href="#">Política de envíos</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
