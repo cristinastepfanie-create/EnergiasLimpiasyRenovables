@@ -1,0 +1,110 @@
+/* Main CSS - Custom Bootstrap Overrides */
+
+:root {
+    --primary-green: #1e8449;
+    --primary-green-hover: #145a32;
+    --tech-blue: #2980b9;
+    --light-bg: #f4f7f6;
+    --dark-text: #2c3e50;
+    --font-main: 'Outfit', sans-serif;
+    /* Updated to Outfit */
+}
+
+body {
+    font-family: var(--font-main);
+    background-color: var(--light-bg);
+    color: var(--dark-text);
+}
+
+/* Typography Overrides */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-main);
+    font-weight: 700;
+}
+
+/* Custom Colors */
+.text-primary-custom {
+    color: var(--primary-green) !important;
+}
+
+.bg-primary-custom {
+    background-color: var(--primary-green) !important;
+}
+
+/* Bootstrap Button Overrides */
+.btn-primary {
+    background-color: var(--primary-green);
+    border-color: var(--primary-green);
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: var(--primary-green-hover) !important;
+    border-color: var(--primary-green-hover) !important;
+    transform: translateY(-2px);
+}
+
+.btn-outline-success {
+    color: var(--primary-green);
+    border-color: var(--primary-green);
+}
+
+.btn-outline-success:hover {
+    background-color: var(--primary-green);
+    border-color: var(--primary-green);
+}
+
+/* Hero Section */
+.hero-section {
+    background-image: url('../assets/img/hero.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    /* Full viewport height minus navbar approx */
+}
+
+/* Card Hover Effects */
+.hover-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+}
+
+/* Form Controls */
+.form-control:focus {
+    border-color: var(--primary-green);
+    box-shadow: 0 0 0 0.25rem rgba(30, 132, 73, 0.25);
+}
+
+/* Navbar Customization */
+.navbar-brand {
+    line-height: 1.2;
+}
+
+/* Accessibility */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: var(--primary-green);
+    color: white;
+    padding: 8px;
+    z-index: 10000;
+    /* Higher than navbar */
+    transition: top 0.3s;
+    text-decoration: none;
+}
+
+.skip-link:focus {
+    top: 0;
+}
